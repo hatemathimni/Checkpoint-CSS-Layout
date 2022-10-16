@@ -1,0 +1,248 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 65%;
+    margin: auto;
+    align-items: center;
+}
+
+.options a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(159, 159, 159);
+    margin-right: 10px;
+
+}
+
+.nav-bar img{
+    width: 250px;
+}
+
+main{
+    margin-top: 50px;
+}
+
+.slogan{
+    width: 65%;
+    margin: auto;
+}
+
+.slogan img{
+    display: block;
+    margin: auto;
+}
+
+.slogan p{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00b39b;
+    text-align: center;
+}
+
+.desc{
+    display: flex;
+    width: 65%;
+    margin: auto;
+}
+
+.desc p{
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: rgb(117, 117, 117);
+}
+
+.cible{
+    display: flex;
+    width: 65%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.cible-box{
+    margin-top: 20px;
+    height: 300px;
+    width: 25%;
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.patients{
+    background-color: #00b39b;
+}
+
+.doctors{
+    background-color: rgb(93, 197, 223);
+}
+
+.clinics{
+    background-color: black;
+}
+
+.cible-box select{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#selt1{
+    bottom: 30px;
+}
+
+#selt2{
+    bottom: 50px;
+}
+h2{
+    color: #00b39b;
+    display: flex;
+    margin-left: 250px;
+    margin-top: 5%;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part3 a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: gray;
+    justify-content: space-between;
+    margin-right: 20px;
+    position: relative;
+    left: 660px;
+    top: -110px;
+    margin-top: 10px;
+    
+}   
+.part4{
+    background-color: #96f2e6;
+}
+.part4 h1{
+    color: #00b39b;
+    display: flex;
+    margin-left: 250px;
+    margin-top: 5%;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.part4 p{
+    font-size: 1em;
+    color: white;
+    margin-left: 250px;
+    margin-top: 20px;
+    display: flex;
+}
+.part41-box {
+    background: #fff;
+    border-radius: 0px;
+    box-sizing: inherit;
+    height: 100px;
+    width: 150px;
+    padding: 5px;
+    justify-content: end;
+    font-size: 1em; 
+}
+  h3{
+    color:#96f2e6;
+  }
+  .part41 p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: gray;
+  }
+  .part41{
+    width: 500px;
+    margin: 20px auto;
+    display: table;
+    box-sizing: border-box; }
+
+    .row{
+        margin: 5px;
+    }
+    .column{
+        display: table-cell;
+        padding: 10px;
+        text-align: center;
+        border-right: 5px solid #96f2e6 ;
+        border-left: 5px solid #96f2e6 ;
+        background: #fff;
+        vertical-align: middle;
+        width: 30%;
+        
+        
+    }
+    h4{
+        text-align: center;
+        margin-top: 10px;
+        color:#96f2e6 ;
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tt1 p{
+        text-align: center;
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .cards {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 1170px;
+        border: 1px solis red;
+        flex-wrap: wrap;
+        grid-row-gap: 50px;
+        grid-column: 50px;
+    
+
+    }
+
+    .cards div{
+        margin: 30px;
+    }
+    .image:hover{
+        
+        box-shadow: 0PX 0px 10px 3px rgb(230, 223, 223);
+
+
+    }
+    .image img{
+        flex-basis: 23%;
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        margin: 10px 0px;
+    }
+    .image p {
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    button {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: rgb(84, 84, 217);
+        border: 0px solid rgb(84, 84, 217);
+        border-radius: 3px;
+        color: white;
+        cursor: pointer;
+        border-radius: NONE;
+        text-align: right;
+
+    
+    }
+    button:hover{
+        background-color: aqua;
+    }
+    .CLOSE H3{
+        text-align: center;
+    }
